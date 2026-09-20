@@ -1,0 +1,19 @@
+# 编译产物
+*.o
+*.elf
+*.hex
+*.bin
+build/
+build_arm/
+
+# IDE / 编辑器
+Debug/
+Release/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+*.uvguix.*
+*.uvoptx
+.DS_Store
+
+# 外部依赖（CMSIS 等），构建前用 tools/fetch_deps.py 拉取
+third_party/
